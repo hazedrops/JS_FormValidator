@@ -3,10 +3,10 @@
 :root {
   --success-color: #429331;
   --error-color: #8e000a;
-  --background-color: #d79922;
-  --container-background-color: #efe2ba;
-  --text-color: #003800;
-  --button-color: #f13c20;
+  --button-color: #f9d930;
+  --container-background-color: #fff;
+  --text-color: #222;
+  /* --button-color: #013220; */
 }
 
 * {
@@ -14,7 +14,7 @@
 }
 
 body {
-  background-color: var(--background-color);
+  background: no-repeat center/80% url('img/bg1.jfif');
   color: var(--text-color);
   font-family: 'Open Sans', sans-serif;
   display: flex;
@@ -91,7 +91,7 @@ hs {
   background-color: var(--button-color);
   border: 2px solid var(--container-background-color);
   border-radius: 4px;
-  color: var(--container-background-color);
+  color: var(--text-color);
   display: block;
   font-size: 16px;
   padding: 10px;
